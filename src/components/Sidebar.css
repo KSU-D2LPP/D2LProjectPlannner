@@ -1,4 +1,4 @@
-/* Change hover color */
+/*hover color */
 .react-pro-sidebar .pro-menu-item:hover {
     background-color: #555555 !important;
   }
@@ -9,7 +9,7 @@
     z-index: 1000;
   }
   
-/* Change hover color when the mouse is over the menu item */
+/* Change hover color with the mouse hover */
 .react-pro-sidebar .pro-menu-item:hover {
   background-color: #6b6a6a !important;
 }
