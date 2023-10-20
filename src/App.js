@@ -6,16 +6,15 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Documentation from './components/Documentation';
 import Features from './components/Features';
-import ContactUs from './components/ContactUs';  // Import the ContactUs component
-
+import ContactUs from './components/ContactUs';  
 
 function App() {
   const appStyle = {
-    backgroundColor: 'rgb(51,51,51)' // Set the background color for the entire App
+    backgroundColor: 'rgb(51,51,51)' // Background color for the entire App
   };
 
   const mainContentStyle = {
-    marginLeft: '80px', // Assuming the width of the collapsed sidebar is 80px
+    marginLeft: '80px', 
     backgroundColor: '#333', // Gray background
     minHeight: '96vh', // Full height
     color: 'white', // Text color
@@ -29,7 +28,7 @@ function App() {
         <div style={mainContentStyle}>
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} index /> {/* Set Home as the default route */}
+            <Route path="/" element={<Home />} index /> {/* Home as the default route */}
             <Route path="/documentation" element={<Documentation />} />
             <Route path="/features" element={<Features />} />
             <Route path="/contact-us" element={<ContactUs />} /> 
