@@ -6,7 +6,7 @@ import {
   FaBook,
   FaRocket,
   FaUser
-} from 'react-icons/fa';
+} from 'react-icons/fa'; {/* React icons imported from lib */}
 import { Link } from 'react-router-dom';
 
 const AppSidebar = () => {
@@ -18,7 +18,7 @@ const AppSidebar = () => {
   };
 
   const menuItemStyle = (item) => ({
-    backgroundColor: hoveredItem === item ? 'black' : 'transparent',
+    backgroundColor: hoveredItem === item ? 'black': 'transparent',
     zIndex: hoveredItem === item ? 4 : 2
   });
 
@@ -92,7 +92,7 @@ const AppSidebar = () => {
         </Menu>
       </Sidebar>
       <div style={{ marginLeft: collapsed ? '80px' : '200px' }}>
-        {/* Your main content goes here */}
+        
       </div>
     </div>
   );
