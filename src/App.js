@@ -15,9 +15,9 @@ function App() {
 
   const mainContentStyle = {
     marginLeft: '80px', 
-    backgroundColor: '#333', // Gray background
-    minHeight: '96vh', // Full height
-    color: 'white', // Text color
+    backgroundColor: '#333', 
+    minHeight: '96vh',
+    color: 'white', 
   };
 
   return (
