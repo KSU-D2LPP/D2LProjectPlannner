@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <div style={headerStyle}>
-      <p style={textStyle}>SRS and SDS is complete, Backend in progress, Frontend in progress -- Next meeting is 10/24</p>
+      <p style={textStyle}>SRS is Finalized, Milestone One is Complete, Meeting for Review Draft will be Friday 24th</p>
       <style>{`
         @keyframes scrollingText {
           0% { transform: translateX(100%); }
