@@ -6,7 +6,7 @@ import {
   FaBook,
   FaRocket,
   FaUser
-} from 'react-icons/fa'; {/* React icons imported from lib */}
+} from 'react-icons/fa'; 
 import { Link } from 'react-router-dom';
 
 const AppSidebar = () => {
