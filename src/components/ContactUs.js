@@ -27,12 +27,11 @@ const ContactUs = () => {
             </li>
           </ul>
         </div>
-        <img src='/face.jpg' alt='Face' style={{ maxWidth: '200px', maxHeight: '200px', alignSelf: 'center' }} />
+        <img src='/face.jpg' alt='Face' style={{ maxWidth: '400px', maxHeight: '400px', alignSelf: 'center' }} />
       </div>
     </div>
   );
 };
 
 export default ContactUs;
-
 
