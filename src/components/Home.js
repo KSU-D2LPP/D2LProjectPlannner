@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './component-assets/D2LPP-logo.png';  // Make sure to place your logo in the same directory or update this path
+import logo from './component-assets/D2LPP-logo.png'; 
 
 const Home = () => {
   const divStyle = {
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent black
-    borderRadius: '10px', // Rounded edges
-    color: 'gold', // Text color set to gold
+    backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+    borderRadius: '10px', 
+    color: 'gold', 
     padding: '0px',
     textAlign: 'center',
-    maxWidth: '700px',  // Set maximum width
-    margin: '0 auto'  // Center the div
+    maxWidth: '700px',  
+    margin: '0 auto'  
   };
 
   const buttonStyle = {
@@ -43,7 +43,7 @@ const Home = () => {
         </p>
       </div>
 
-      {/* New Section */}
+      
       <div style={{ ...divStyle, marginTop: '20px' }}>
         <h3>Go to the Web Application</h3>
         <a 
