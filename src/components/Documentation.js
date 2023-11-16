@@ -1,7 +1,6 @@
 import React from 'react';
-import downloadButton from './component-assets/download-btn.png';  // Import the download button image
-import githubButton from './component-assets/github-btn.png';  // Import the GitHub button image
-
+import downloadButton from './component-assets/download-btn.png'; 
+import githubButton from './component-assets/github-btn.png'; 
 const Documentation = () => {
   const files = [
     { name: 'SP-4 - D2L 3rd Party App - Project Plan.docx', description: 'Project Plan' },
@@ -13,7 +12,7 @@ const Documentation = () => {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '30px' }}>
       <h1>Documentation</h1>
 
-      {/* List of files */}
+    
       <div style={{ width: '80%', backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'gold', padding: '1em' }}>
         <h3>Available Documents</h3>
         <ul style={{ listStyleType: 'none', padding: 0 }}>
