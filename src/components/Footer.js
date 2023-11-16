@@ -2,12 +2,12 @@ import React from 'react';
 
 const Footer = () => {
   const divStyle = {
-    position: 'fixed',  // Fixed position
-    bottom: '0',  // Set it to the bottom
-    width: '100%',  // Full width
-    height: '13px',  // Make it as thin as a line
-    backgroundColor: 'gold',  // Line color
-    color: 'black',  // Text color
+    position: 'fixed', 
+    bottom: '0', 
+    width: '100%',  
+    height: '13px',  
+    backgroundColor: 'gold', 
+    color: 'black',  
     fontSize: '10px',
     textAlign: 'center'
   };
