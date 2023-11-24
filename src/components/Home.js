@@ -39,8 +39,10 @@ const Home = () => {
           This site will serve as the online display of our project containing <br />
           our documentation, some advance feature explanations <br />
           and everything else required to fit our rubric. <br />
-          Enjoy!
+          Enjoy!<br />
         </p>
+
+        <p>SP-04 No Color 3rd Party D2L Application</p>
       </div>
 
       
