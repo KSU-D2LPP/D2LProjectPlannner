@@ -20,6 +20,15 @@ const Features = () => {
         <p>Students have the option to select a project and perform peer reviews.</p>
         <h3>Teacher Dashboard</h3>
         <p>Teachers have more options including creating a course, importing/exporting data, and viewing reports.</p>
+          <div className="youtube-player">
+          <iframe 
+            src="https://www.youtube.com/embed/zAH14IPaYV8" 
+            title="YouTube video player" 
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen>
+          </iframe>
+        </div>
       </div>
     </div>
   );
