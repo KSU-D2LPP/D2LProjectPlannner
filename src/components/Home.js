@@ -39,10 +39,11 @@ const Home = () => {
           This site will serve as the online display of our project containing <br />
           our documentation, some advance feature explanations <br />
           and everything else required to fit our rubric. <br />
-          Enjoy!<br />
+          Enjoy!<br /><br />
         </p>
 
-        <p>SP-04 No Color 3rd Party D2L Application</p>
+        <p>SP-04 No Color 3rd Party D2L Application<br />
+           CS 4850 Section 02 Fall 2023</p>
       </div>
 
       
