@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './Features.css';  // Importing the CSS file for styling
+import './Features.css'; 
 
 const Features = () => {
   return (
