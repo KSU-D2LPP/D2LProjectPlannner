@@ -3,9 +3,9 @@ import downloadButton from './component-assets/download-btn.png';
 import githubButton from './component-assets/github-btn.png'; 
 const Documentation = () => {
   const files = [
-    { name: 'SP-4 - D2L 3rd Party App - Project Plan.docx', description: 'Project Plan' },
-    { name: 'SP-4 No Color-D2L 3rd Party Application-Requirements.docx', description: 'Software Requirements Specifications' },
-    { name: 'SP-4 No Color-D2L 3rd Party Application-Design.docx', description: 'Software Design Specifications' },
+    { name: 'SP-4 - D2L 3rd Party App - Project Plan.pdf', description: 'Project Plan' },
+    { name: 'SP-4 No Color-D2L 3rd Party Application-Requirements.pdf', description: 'Software Requirements Specifications' },
+    { name: 'SP-4 No Color-D2L 3rd Party Application-Design.pdf', description: 'Software Design Specifications' },
   ];
 
   return (
